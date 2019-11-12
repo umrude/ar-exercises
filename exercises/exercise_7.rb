@@ -10,3 +10,10 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+new_store = Store.create()
+
+new_employee = Employee.create()
+
+puts new_store.errors.inspect
+puts new_employee.errors.inspect
